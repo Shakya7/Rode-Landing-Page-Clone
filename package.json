@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build":"npx tailwindcss -i ./src/styles.css -o ./public/output.css --watch"
+    "dev":"npx tailwindcss -i ./src/styles.css -o ./public/output.css --watch",
+    "prod": "npx tailwindcss -i ./src/styles.css -o ./public/output.css"
   },
   "author": "Shakya Sarkar",
   "license": "ISC",
